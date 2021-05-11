@@ -1,0 +1,120 @@
+{
+  "_from": "@dynatrace/cordova-plugin@1.217.0",
+  "_id": "@dynatrace/cordova-plugin@1.217.0",
+  "_inBundle": false,
+  "_integrity": "sha512-VC+D0faknlTEtS1K3A/ejSIyTSyUKWeKs3HPYhzJ5dx3Y7UqJ9CyMBUEesl7g83qrin1IFrVf7KAOrhRi9oHJg==",
+  "_location": "/@dynatrace/cordova-plugin",
+  "_phantomChildren": {
+    "abab": "2.0.5",
+    "acorn-globals": "4.3.4",
+    "array-equal": "1.0.0",
+    "cssom": "0.4.4",
+    "cssstyle": "2.3.0",
+    "data-urls": "1.1.0",
+    "domexception": "1.0.1",
+    "escodegen": "1.14.3",
+    "html-encoding-sniffer": "1.0.2",
+    "ip-regex": "2.1.0",
+    "nwsapi": "2.2.0",
+    "pn": "1.1.0",
+    "psl": "1.4.0",
+    "punycode": "2.1.1",
+    "request": "2.88.0",
+    "request-promise-native": "1.0.9",
+    "saxes": "3.1.11",
+    "symbol-tree": "3.2.4",
+    "w3c-hr-time": "1.0.2",
+    "w3c-xmlserializer": "1.1.2",
+    "webidl-conversions": "4.0.2",
+    "whatwg-encoding": "1.0.5",
+    "whatwg-mimetype": "2.3.0",
+    "whatwg-url": "7.1.0",
+    "xml-name-validator": "3.0.0",
+    "xmlbuilder": "9.0.7"
+  },
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "@dynatrace/cordova-plugin@1.217.0",
+    "name": "@dynatrace/cordova-plugin",
+    "escapedName": "@dynatrace%2fcordova-plugin",
+    "scope": "@dynatrace",
+    "rawSpec": "1.217.0",
+    "saveSpec": null,
+    "fetchSpec": "1.217.0"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/@dynatrace/cordova-plugin/-/cordova-plugin-1.217.0.tgz",
+  "_shasum": "6536b63d73afb50f33c8af406db273c5a44df442",
+  "_spec": "@dynatrace/cordova-plugin@1.217.0",
+  "_where": "C:\\mobile\\projects\\latest2021master\\robinApp\\FRONTeO-Nagelmackers-Mobile-App",
+  "author": {
+    "name": "Dynatrace"
+  },
+  "bundleDependencies": false,
+  "cordova": {
+    "id": "dynatrace-cordova-plugin",
+    "platforms": [
+      "ios",
+      "android",
+      "windows"
+    ]
+  },
+  "dependencies": {
+    "axios": "0.21.1",
+    "cordova-common": "^4.0.0",
+    "if-env": "1.0.4",
+    "jsdom": "^15.2.1",
+    "plist": "^3.0.2"
+  },
+  "deprecated": false,
+  "description": "This plugin gives you the ability to use the Dynatrace instrumentation in your hybrid application (Cordova, Ionic, ..). It uses the Mobile Agent, the JavaScript Agent. The Mobile Agent will give you all device specific values containing lifecycle information and the Javascript Agent will allow you to manually instrument your JavaScript/TypeScript code out of the box (Typescript definitions included). The JavaScript Agent will cover the network calls and will automatically detect them.",
+  "devDependencies": {
+    "@types/jsdom": "^12.2.4",
+    "@types/plist": "^3.0.2",
+    "babel-polyfill": "^6.23.0",
+    "cordova": "^9.0.0",
+    "fs-extra": "^8.1.0",
+    "ionic": "^5.4.16",
+    "jest": "^25.5.4",
+    "mock-fs": "^4.10.3",
+    "shelljs": "^0.8.3",
+    "tar": "^5.0.5",
+    "typescript": "^3.7.5"
+  },
+  "files": [
+    "assets/*",
+    "files/*",
+    "plugin.xml",
+    "README.md",
+    "other/*",
+    "networking/*",
+    "scripts/*",
+    "model/*",
+    "typings/main.d.ts",
+    "package.json"
+  ],
+  "homepage": "https://www.dynatrace.com/",
+  "keywords": [
+    "Dynatrace",
+    "Mobile",
+    "Android",
+    "iOS",
+    "Cordova",
+    "Performance",
+    "Monitoring",
+    "Ionic"
+  ],
+  "license": "Copyright (c) 2012-2020 Dynatrace LLC. All rights reserved.",
+  "name": "@dynatrace/cordova-plugin",
+  "scripts": {
+    "install": "if-env BUILD_PLUGIN=true && echo 'Skipping Install Script' || node ./scripts/installCap.js",
+    "test:debug": "node --inspect-brk ./node_modules/jest/bin/jest.js --runInBand",
+    "tsc": "tsc",
+    "uninstall": "if-env BUILD_PLUGIN=true && echo 'Skipping Uninstall Script' || node ./scripts/uninstallCap.js"
+  },
+  "typings": "typings/main.d.ts",
+  "version": "1.217.0"
+}

@@ -1,0 +1,21 @@
+ext['dynatrace.instrumentationFlavor'] = 'cordova'
+apply plugin: 'com.dynatrace.instrumentation'
+
+// AUTO - INSERTED
+
+        dynatrace {
+            configurations {
+                defaultConfig {
+                    autoStart {
+                        applicationId 'd12517a5-0ab1-428e-96ae-087c0e4fea13'
+                        beaconUrl 'https://dagtest.nagelmackers.be:443/mbeacon/fa2bb775-8b94-4e66-b9b7-697dfe916433'
+                    }
+                    hybridWebView{
+                        enabled true
+                        domains 'http://localhost'
+                    }
+                }
+            }
+        }
+        
+// AUTO - INSERTED

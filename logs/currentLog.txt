@@ -1,0 +1,13 @@
+#WARN  [2021-05-11 15:13:21]: capacitor.config.json file is not available
+#INFO  [2021-05-11 15:13:21]: Created dynatrace.config.js - Please insert your configuration and update the file!
+#INFO  [2021-05-11 15:13:59]: Starting Configuration of application ..
+#INFO  [2021-05-11 15:13:59]: Dynatrace Cordova Plugin - Version 1.217.0
+#WARN  [2021-05-11 15:13:59]: iOS Location doesn't exist - Skip iOS instrumentation and configuration.
+#INFO  [2021-05-11 15:13:59]: Trying to read configuration file: C:\mobile\projects\latest2021master\robinApp\FRONTeO-Nagelmackers-Mobile-App\dynatrace.config.js
+#WARN  [2021-05-11 15:13:59]: Incorrect or empty url found for JSAgent - Will not retrieve or include JSAgent.
+#INFO  [2021-05-11 15:13:59]: Starting Android Configuration with Dynatrace!
+#INFO  [2021-05-11 15:13:59]: Added Dynatrace plugin.gradle to the build.gradle: C:\mobile\projects\latest2021master\robinApp\FRONTeO-Nagelmackers-Mobile-App\platforms\android\build.gradle
+#INFO  [2021-05-11 15:13:59]: Replaced old configuration with current configuration in dynatrace.gradle
+#WARN  [2021-05-11 15:13:59]: Not instrumenting HTML files since there is no available JSAgent to inject!
+#INFO  [2021-05-11 15:13:59]: Finished Android Configuration with Dynatrace!
+#INFO  [2021-05-11 15:13:59]: Finished Configuration of Cordova application ..
