@@ -12,6 +12,9 @@
   <js-module src="other/DynatraceCordovaPlugin.js" name="dynatraceMobile">
 	  <clobbers target="dynatraceMobile"/>
   </js-module>
+  <js-module src="scripts/dtrum-swallow-api.js" name="dtrum">
+	  <clobbers target="dtrum"/>
+  </js-module>
   <platform name="ios">
     <framework src="libsqlite3.dylib"/>
     <framework src="CoreLocation.framework"/>
